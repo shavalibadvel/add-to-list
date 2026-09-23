@@ -5,15 +5,13 @@ function App() {
   const [item, setItem] = useState('');
   const [list, setList] = useState([]);
 
-  // Function to add item to the list
+ 
   const handleAdd = () => {
     if (item.trim() !== '') {
       setList([...list, item]);
-      setItem(''); // Clear input field after adding
+      setItem(''); 
     }
   };
-
-  // Function to remove item from the list
   const handleRemove = (indexToRemove) => {
     const updatedList = list.filter((_, index) => index !== indexToRemove);
     setList(updatedList);
