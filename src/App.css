@@ -105,10 +105,9 @@
   color: #333;
 }
 
-/* Remove button styling */
 .remove-btn {
-  background-color: #fce8e6; /* Light red/pink background */
-  color: #d93025; /* Red text */
+  background-color: #fce8e6; 
+  color: #d93025;
   border: none;
   padding: 6px 12px;
   border-radius: 6px;

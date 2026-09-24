@@ -17,7 +17,7 @@ function App() {
     setList(updatedList);
   };
 
-  // Function to handle "Enter" key press
+  
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       handleAdd();
